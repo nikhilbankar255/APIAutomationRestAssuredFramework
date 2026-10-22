@@ -19,7 +19,11 @@ public class Routes {
 	public static String delete_url=base_url+"/user/{username}";
 	
 	//store module
-	
+	public static String store_getInventoryUrl= base_url+"/store/inventory";
+	public static String store_postUrl=base_url+"/store/order";
+	public static String store_getOrderUrl=base_url+"/store/order/{orderId}";
+	public static String store_deleteUrl=base_url+"/store/order/{orderId}";
+		
 	//pet module
 	
 }
