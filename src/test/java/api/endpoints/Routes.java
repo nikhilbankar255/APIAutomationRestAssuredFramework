@@ -1,7 +1,6 @@
 package api.endpoints;
 
 public class Routes {
-
 	/*
 	URI->   https://petstore.swagger.io/
 	post->  v2/user
@@ -9,7 +8,6 @@ public class Routes {
 	Put->   v2/user/{username}
 	Delete->  v2/ user/{username}
 */
-	
 	public static String base_url="https://petstore.swagger.io/v2";
 	
 	//User module
