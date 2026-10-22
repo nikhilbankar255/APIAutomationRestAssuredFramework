@@ -5,9 +5,6 @@ pipeline {
         jdk 'JAVA_HOME'
     }
     stages {
-        stage('Checkout') {
-            steps { checkout scm }
-        }
         stage('Test') {
             steps { bat 'mvn clean test -DsuiteXmlFile=testng.xml' }
         }
