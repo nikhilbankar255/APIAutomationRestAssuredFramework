@@ -23,9 +23,9 @@ public class Routes {
 	public static String store_deleteUrl=base_url+"/store/order/{orderId}";
 		
 	//pet module
-	public static String pet_postUrl=base_url+"/pet";
-	public static String pet_updateUrl=base_url+"/pet";
-	public static String pet_getUrl=base_url+"/pet/{petId}";
-	public static String pet_delete_url=base_url+"/pet/{petId}";
-	
+	public static String pet_postUrl=base_url+"/pet"; 
+	public static String pet_updateUrl=base_url+"/pet"; 
+	public static String pet_getByIdUrl=base_url+"/pet/{petId}"; 
+	public static String pet_deleteUrl=base_url+"/pet/{petId}"; 
+	public static String pet_getByStatusUrl=base_url+"/pet/findByStatus";
 }
