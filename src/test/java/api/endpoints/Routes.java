@@ -1,7 +1,7 @@
 package api.endpoints;
 
 public class Routes {
-	/*
+/*
 	URI->   https://petstore.swagger.io/
 	post->  v2/user
 	Get->   v2/user/{username}
